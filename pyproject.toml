@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "automated-pinterest-money-flow"
+version = "0.1.0"
+description = "A modular automation tool for researching trending Amazon products, generating Pinterest pins, and scheduling posts."
+authors = ["Your Name <kit@kitwanaakil.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.1"
+beautifulsoup4 = "^4.11.1"
+pillow = "^9.3.0"
+apscheduler = "^3.9.1"
+python-dotenv = "^0.21.0"
+gspread = "^5.10.1"
+google-auth = "^2.16.0"
+undetected-chromedriver = "^3.2.0"
+selenium = "^4.8.0"
+moviepy = "^1.0.3"
+requests-toolbelt = "^0.10.1"
+g4f = "^0.1.0"  # Assuming this is available on PyPI
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.2.1"
+pytest-cov = "^4.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

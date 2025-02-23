@@ -1,6 +1,6 @@
 import unittest
 import os
-from modules.base_agent import BaseAgent
+from src.modules.base_agent import BaseAgent
 
 
 class TestAgent(BaseAgent):
